@@ -1,9 +1,24 @@
 #include <iostream>
+#include "Cola/Cola.h"
 using namespace std;
 
-int main() {
+void eliminarRepetidos(Cola<int>& cola, int n){
+    Cola<int> aux;
+    while (!cola.esVacia())
+    {
+        if (/* condition */)
+        {
+            /* code */
+        }
+        
+    }
+    
+}
 
-    cout << "Ejercicio N° 3" << endl;
+int main() {
+    Cola<int> cola;
+    
+    eliminarRepetidos(cola,3)
 
     return 0;
 }
